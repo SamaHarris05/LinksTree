@@ -1,0 +1,68 @@
+body {
+    background: azure;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: 590px;
+    margin-right: auto;
+    height: auto;
+    max-width: 150px;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links {
+    background-color: #7fcecd;
+    text-align: center;
+    margin-top: 19px;
+    padding: 20px;
+    border: 1px solid #6667AB;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000;
+    background: #6667AB;
+    border: 1px solid #7fcecd;
+    border-width: 2px;
+}
